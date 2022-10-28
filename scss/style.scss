@@ -1,0 +1,22 @@
+// custom Bootstrap
+@use "custom";
+
+// import components
+
+@import "components/animations";
+@import "components/buttons";
+@import "components/mixins";
+@import "components/typography";
+
+// import section
+
+@import "section/compenies";
+@import "section/faq";
+@import "section/footer";
+@import "section/get-started";
+@import "section/intro-section";
+@import "section/navbar";
+@import "section/portfolio";
+@import "section/services";
+@import "section/testimonials";
+@import "/node_modules/bootstrap-icons/font/bootstrap-icons.css";

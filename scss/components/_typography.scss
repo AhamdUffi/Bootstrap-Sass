@@ -1,0 +1,83 @@
+@use "../custom" as *;
+
+.display-2 {
+  margin-top: 1rem;
+  text-transform: capitalize;
+  color: $white;
+  font-family: "Poppins", sans-serif;
+
+  &--intro {
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  &--des {
+    display: block;
+    font-size: 1rem;
+    color: $white;
+    margin-top: 10px;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.3rem;
+      display: inline-block;
+    }
+  }
+}
+
+/* -------------------------------- compenies ------------------------------- */
+.border-heading::before {
+  content: "";
+  display: block;
+  width: 8rem;
+  height: 0.1rem;
+  background-color: $primary;
+  margin: 0 auto;
+}
+.border-heading::after {
+  content: "";
+  display: block;
+  width: 2rem;
+  height: 0.2rem;
+  padding: 5px;
+  background-color: $primary;
+  margin: 0 auto;
+}
+
+.display-3 {
+  font-family: "Poppins", sans-serif;
+
+  &--title {
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to right, $primary 10%, $pink 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.8rem;
+    }
+  }
+
+  &--cta {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.3 !important;
+  }
+}
+
+.footer-more {
+  h5.display-5 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: $white;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+
+  ul {
+    margin-top: 10px;
+    list-style: none;
+  }
+}

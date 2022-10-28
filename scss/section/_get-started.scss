@@ -1,0 +1,27 @@
+@use "../custom" as *;
+
+.get-started {
+  margin: 3rem 0;
+  padding: 2rem 0;
+  background-color: $gray-400;
+
+  .list-cta {
+    list-style: none;
+  }
+
+  form {
+    padding: 3rem;
+
+    button {
+      background-color: rgba($primary, 0.8);
+      color: $white;
+      padding: 0.8rem;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: rgba($primary, 1);
+        color: $white;
+      }
+    }
+  }
+}

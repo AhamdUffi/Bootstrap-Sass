@@ -1,0 +1,23 @@
+@use "../custom" as *;
+
+.services {
+  padding: 1rem 0;
+  background-color: $white;
+
+  &__content {
+    margin-top: 1rem;
+    padding: 1rem;
+
+    i {
+      font-size: 1.5rem;
+      color: $primary;
+      @include media-breakpoint-up(lg) {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  &__pict {
+    max-width: 100%;
+  }
+}

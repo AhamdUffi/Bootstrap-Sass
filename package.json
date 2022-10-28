@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-and-sass",
+  "version": "1.0.0",
+  "description": "learning bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass -w scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "Bootstrap",
+    "Bootstrap-v5",
+    "SASS",
+    "learning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "bootstrap-icons": "^1.9.1",
+    "font-awesome": "^4.7.0",
+    "glightbox": "^3.2.0"
+  }
+}
